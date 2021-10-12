@@ -82,7 +82,7 @@
         <!-- Hero End -->
 
 
-        <!-- Testimonial Start -->
+        <!-- Review Start -->
         <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="review">
             <div class="container">
                 <div class="testimonial-icon">
@@ -128,7 +128,7 @@
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+        <!-- Reiview End -->
 
 
         <!-- Footer Start -->
