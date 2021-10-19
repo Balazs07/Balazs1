@@ -22,4 +22,12 @@ while($row = mysqli_fetch_assoc($query))
   $title = $row['title'];
   $content = $row['content'];
 }
+
+//Select specific column from DB
+$query = mysqli_query($conn, "SELECT * FROM contact");
+while($row = mysqli_fetch_assoc($query))
+{
+  $contact_title = $row['contact_title'];
+  $android = $row['android'];
+}
 ?>
