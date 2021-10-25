@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Awesome Portfolio website</title>
+        <title><?php echo $awsome_portfolio; ?></title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Awesome Portfolio" name="keywords">
         <meta content="Awesome Portfolio" name="description">

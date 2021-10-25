@@ -5,14 +5,14 @@
             <div class="col-sm-12 col-md-6">
                 <div class="hero-content">
                     <div class="hero-text">
-                        <p> <?php echo $contact_title; ?> </p>
+                        <p> <?php echo $this_is; ?> </p>
                         <h1><?php echo $android; ?></h1>
                         <h2></h2>
-                        <div class="typed-text">Cool Features, Coffee Drinker, Awesome As F***, Shit Happens, Learn HTML Kids</div>
+                        <div class="typed-text"><?php echo $Cool_Features; ?></div>
                     </div>
                     <div class="hero-btn">
-                        <a class="btn" href="">Try My Features</a>
-                        <a class="btn" href="">HTML Hero!</a>
+                        <a class="btn" href=""><?php echo $Try_My_Features; ?></a>
+                        <a class="btn" href=""><?php echo $HTML_Hero; ?>a>
                     </div>
                 </div>
             </div>

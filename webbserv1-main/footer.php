@@ -3,11 +3,11 @@
     <div class="container-fluid">
         <div class="container">
             <div class="footer-info">
-                <h2>Android Robot</h2>
-                <h3>123 Street, New York, USA</h3>
+                <h2><?php echo $android_robot; ?></h2>
+                <h3><?php echo $one23_street; ?></h3>
                 <div class="footer-menu">
-                    <p>+012 345 67890</p>
-                    <p>info@example.com</p>
+                    <p><?php echo $tel_number; ?></p>
+                    <p><?php echo $info_email; ?></p>
                 </div>
                 <div class="footer-social">
                     <a href=""><i class="fab fa-twitter"></i></a>
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="container copyright">
-            <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | Designed By Mikael</a></p>
+            <p><?php echo $copyright; ?> <a href="#"><?php echo $your_site_name; ?></a>, <?php echo $all_right_reserved; ?></a></p>
         </div>
     </div>
 </div>
