@@ -1,4 +1,4 @@
-<!-- Banner Start -->
+<!-- Banner 2 Start -->
 <div class="banner wow zoomIn" data-wow-delay="0.1s">
     <div class="container">
         <div class="section-header text-center">
@@ -13,4 +13,4 @@
         </div>
     </div>
 </div>
-<!-- Banner End -->
+<!-- Banner 2 End -->
