@@ -3,8 +3,8 @@
         <div class="blog" id="blog">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>From Blog</p>
-                    <h2>Latest Articles</h2>
+                    <p><?php echo $from_blog; ?></p>
+                    <h2><?php echo $latest; ?></h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
@@ -13,17 +13,17 @@
                                 <img src="img/blog-1.jpg" alt="Blog">
                             </div>
                             <div class="blog-text">
-                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <h2><?php echo $lorem_ips; ?></h2>
                                 <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Web Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>5</p>
+                                    <p><i class="far fa-user"></i><?php echo $admin; ?></p>
+                                    <p><i class="far fa-list-alt"></i><?php echo $web_design; ?></p>
+                                    <p><i class="far fa-calendar-alt"></i><?php echo $jan_01; ?></p>
+                                    <p><i class="far fa-comments"></i><?php echo $fem; ?></p>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                  <?php echo $lorem_ipsu; ?>
                                 </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                                <a class="btn" href=""><?php echo $read_more; ?> <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -33,17 +33,17 @@
                                 <img src="img/blog-2.jpg" alt="Blog">
                             </div>
                             <div class="blog-text">
-                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <h2><?php echo $lorem; ?></h2>
                                 <div class="blog-meta">
-                                    <p><i class="far fa-user"></i>Admin</p>
-                                    <p><i class="far fa-list-alt"></i>Apps Design</p>
-                                    <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
-                                    <p><i class="far fa-comments"></i>10</p>
+                                    <p><i class="far fa-user"></i><?php echo $admin2; ?></p>
+                                    <p><i class="far fa-list-alt"></i><?php echo $apps_design; ?></p>
+                                    <p><i class="far fa-calendar-alt"></i><?php echo $jan_012; ?></p>
+                                    <p><i class="far fa-comments"></i><?php echo $tio; ?></p>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Nullam commodo mattis mi. Nullam eu erat lectus. Proin viverra risus vitae luctus. Proin ut ante, vitae sapien. Fusce sem ac erat rhoncus, ornare mattis nisl massa et eros vitae pulvin
+                                  <?php echo $lorem_ips2; ?>
                                 </p>
-                                <a class="btn" href="">Read More <i class="fa fa-angle-right"></i></a>
+                                <a class="btn" href=""><?php echo $read_more2; ?> <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>

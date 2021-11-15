@@ -65,4 +65,30 @@ while($row = mysqli_fetch_assoc($query))
   $web_developer = $row['web_developer'];
   $soft_agency = $row['soft_agency'];
   $lorem_ipsum = $row['lorem_ipsum'];
+
+  //Footer.php
+  $query = mysqli_query($conn, "SELECT * FROM blog");
+    while($row = mysqli_fetch_assoc($query))
+    {
+      $from_blog = $row['from_blog'];
+      $latest = $row['latest'];
+      $lorem_ips = $row['lorem_ips'];
+      $admin = $row['admin'];
+      $web_design = $row['web_design'];
+      $jan_01 = $row['jan_01'];
+      $fem = $row['fem'];
+      $lorem_ipsu = $row['lorem_ipsu'];
+      $read_more = $row['read_more'];
+      $lorem = $row['lorem'];
+      $admin2 = $row['admin2'];
+      $apps_design = $row['apps_design'];
+      $jan_012 = $row['jan_012'];
+      $tio = $row['tio'];
+      $lorem_ips = $row['lorem_ips2'];
+      $read_more2 = $row['read_more2'];
+
+
+
+  }
+
 ?>
